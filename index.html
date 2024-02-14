@@ -3,27 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terje Trollet</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GoblinTerje</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="header">Terje Trollet</h1>
+    <div class="makemid">
+        <h1 class="header">Goblin Terje</h1>
+    </div>
     <div id="terjeGoblin">
         <div class="needsBars">
-            <div class="hungerBar">Sult:</div>
-            <div class="healthBar">Helse:</div>
-            <div class="sleepBar">Søvn:</div>
-            <div class="runawayTimer">Terje stikker av/dør om:</div> <!-- deathTimer / Tid til død: evt.-->
+            <div>
+                <div class="hunger-hp"> Sult: </div>
+                <div id="hunger-hp" class="hunger-hp"></div>
+            <br />
+                <div class="play-hp"> Leke: </div>
+                <div id="play-hp" class="play-hp"></div>
+            <br /> 
+                <div class="clean-hp"> Hvor møkkete er Terje:</div>
+                <div id="clean-hp" class="clean-hp"></div>
+            </div>
+            <div class="moodBar">😁 😐 💀 </div>
         </div>
-
-        <div class="theActualGoblin">Her er TERJE!!!!!</div>
-
-        <div class="buttons">
-            <button class="feedGoblin">Mat</button>
-            <!-- <button class="giveTreat">Give Treat!</button> - Bare jeg som hadde en ide om å gi han treat når han var "flink" --> 
-            <button class="playWithGoblin">Lek</button>
-            <button class="cleanUpAfterGoblin">Rydd Opp Etter/Eller Vask</button>
+        
+        
+        <div class="makemid">
+            <div class="buttons">
+				<a class="btn" href="#" id="action-clean">Clean</a>
+				<a class="btn" href="#" id="action-feed">Feed</a>
+				<a class="btn" href="#" id="action-play">Play</a>
+			</div>
+        </div>
+        <div>
+            <div class="makemid"> 
+              <img id="terjeAlive-image" class="theActualGoblin" src="img/TerjeTrollEyesOpen.png" alt="Terje" >        
+            </div>
         </div>
     </div>
-</body>
-</html>
+
+    <script src="script.js"></script>
+</body> 
+</html> 

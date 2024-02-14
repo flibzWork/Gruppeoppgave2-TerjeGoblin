@@ -2,3 +2,92 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/47/29/29/240_F_347292952_H95fWzKSglfB6qCllbD2CKvBcNyrRVvZ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    border: solid darkorchid;
+    border-radius: 20px;
+    background-color: rgb(13, 194, 37, 0.5);
+    width: 450px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
+.needsBars{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 35%;
+    padding-left: 60px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+.hunger-hp{
+ color: white;
+}
+
+    .play-hp{
+        color: white;
+
+    }
+
+    .clean-hp{
+        color: white;
+
+    }
+
+    .deathTimer{
+        color: white;
+
+    }
+
+    .runawayTimer{
+        color: white;
+
+    }
+
+    .theActualGoblin{
+        margin-top: 5px;
+        height: 650px;
+        width: 500px;
+    }
+
+    .btn{
+        text-align: center;
+        border: solid darkorchid;
+        border-radius: 50%;
+        background-color: rgba(128, 128, 128, 0.5);
+        padding: 20px;
+        font-size: 30px;
+        color: white;
+        margin-left: 50px;
+    }
+
+.buttons{
+    margin-top: 50px;
+}
+
+.makemid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+    
